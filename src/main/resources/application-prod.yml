@@ -1,7 +1,7 @@
 server:
   port: 8303
   servlet:
-    context-path: /ftp-nginx
+    context-path: /fs
 web:
   upload-path: /mnt/files/
 spring:
