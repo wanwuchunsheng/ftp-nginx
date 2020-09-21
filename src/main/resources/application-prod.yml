@@ -1,9 +1,9 @@
 server:
   port: 8303
   servlet:
-    context-path: /springBoot-servlet
+    context-path: /ftp-nginx
 web:
-  upload-path: C:/Users/WCH/file/smartwf-hm/upload
+  upload-path: /mnt/files/
 spring:
   resources:
      static-locations: file:${web.upload-path}

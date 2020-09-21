@@ -6,9 +6,9 @@
     <version>2.3.1.RELEASE</version>
   </parent>
   <groupId>com.exp</groupId>
-  <artifactId>springBoot-servlet</artifactId>
+  <artifactId>ftp-nginx</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>springBoot-servlet</name>
+  <name>ftp-nginx</name>
   
   <properties>
 	  <java.version>11</java.version>
@@ -29,7 +29,7 @@
   </dependencies>
   
   <build>
-	    <finalName>springBoot-servlet</finalName>
+	    <finalName>ftp-nginx</finalName>
 		<plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
