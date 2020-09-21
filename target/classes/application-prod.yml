@@ -1,0 +1,9 @@
+server:
+  port: 8303
+  servlet:
+    context-path: /springBoot-servlet
+web:
+  upload-path: C:/Users/WCH/file/smartwf-hm/upload
+spring:
+  resources:
+     static-locations: file:${web.upload-path}
